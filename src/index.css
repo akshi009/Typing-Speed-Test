@@ -1,1 +1,8 @@
 @import "tailwindcss";
+@tailwind utilities;
+
+@layer base {
+  ::selection {
+    @apply bg-[#ffd000] text-[#1c1c21];
+  }
+}
